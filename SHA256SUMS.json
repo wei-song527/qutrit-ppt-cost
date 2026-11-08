@@ -1,0 +1,9 @@
+{
+  "README.TXT": "fd5e86b1fe10e44238ec3d434333e69602c23c7302080cff4b0dfcf08ca642b6",
+  "run_verification.py": "d93223ad99ebfb7909ae8dab4927c28832d572999262381642b38f69726004e1",
+  "verify_certificates.py": "80a430a5d89be10d249fb3a5c80319c0f5677b3de0bf027e2ff46b5a2a458276",
+  "verify_boundary.py": "f0f169ddc58acce5b6c9a3f48ae782b7cf5e9869d3f6705f493630dd474a458f",
+  "data/dyadic.json": "d26f7c3fa65aaa83f88c207988851fb408bb1151f0281f13b1448842f23ba2d9",
+  "data/middle.json": "6d670ac3e76de8101409fcee68bd1cd6c331ecb6b6b90e40e741e70c67064308",
+  "data/upper.json": "77abbf87c9abd40a5e608d1b58064daa5913e682cb6a82c5a6199bbe9bc132e9"
+}

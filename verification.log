@@ -1,0 +1,179 @@
+CHECKING verify_certificates.py --audit-all-units
+HASHES 7 PASS
+data/middle.json region 0 PASS
+data/middle.json region 1 PASS
+data/middle.json region 2 PASS
+data/middle.json region 3 PASS
+data/middle.json region 4 PASS
+data/middle.json region 5 PASS
+data/middle.json region 6 PASS
+data/middle.json region 7 PASS
+data/middle.json region 8 PASS
+data/middle.json region 9 PASS
+data/middle.json region 10 PASS
+data/middle.json region 11 PASS
+data/middle.json region 12 PASS
+data/middle.json region 13 PASS
+data/middle.json region 14 PASS
+data/middle.json region 15 PASS
+data/middle.json region 16 PASS
+data/middle.json region 17 PASS
+data/middle.json region 18 PASS
+data/middle.json region 19 PASS
+data/middle.json region 20 PASS
+data/middle.json region 21 PASS
+data/middle.json region 22 PASS
+data/middle.json region 23 PASS
+data/middle.json region 24 PASS
+data/middle.json region 25 PASS
+data/middle.json region 26 PASS
+data/middle.json region 27 PASS
+data/middle.json region 28 PASS
+data/middle.json region 29 PASS
+data/middle.json region 30 PASS
+data/middle.json region 31 PASS
+data/middle.json region 32 PASS
+data/middle.json region 33 PASS
+data/middle.json region 34 PASS
+data/middle.json region 35 PASS
+data/middle.json region 36 PASS
+data/middle.json region 37 PASS
+data/middle.json region 38 PASS
+data/middle.json region 39 PASS
+data/middle.json region 40 PASS
+data/middle.json region 41 PASS
+data/middle.json region 42 PASS
+data/middle.json region 43 PASS
+data/middle.json region 44 PASS
+data/middle.json region 45 PASS
+data/middle.json region 46 PASS
+data/middle.json region 47 PASS
+data/middle.json region 48 PASS
+data/middle.json region 49 PASS
+data/middle.json region 50 PASS
+data/middle.json region 51 PASS
+data/middle.json region 52 PASS
+data/middle.json region 53 PASS
+data/middle.json region 54 PASS
+data/middle.json region 55 PASS
+data/middle.json region 56 PASS
+data/middle.json region 57 PASS
+data/middle.json region 58 PASS
+data/middle.json region 59 PASS
+data/middle.json region 60 PASS
+data/middle.json region 61 PASS
+data/middle.json region 62 PASS
+data/middle.json region 63 PASS
+data/middle.json region 64 PASS
+data/middle.json region 65 PASS
+data/middle.json region 66 PASS
+data/middle.json region 67 PASS
+data/middle.json region 68 PASS
+data/middle.json region 69 PASS
+data/middle.json region 70 PASS
+data/middle.json region 71 PASS
+data/middle.json region 72 PASS
+data/middle.json region 73 PASS
+data/middle.json region 74 PASS
+data/middle.json region 75 PASS
+data/middle.json region 76 PASS
+data/middle.json region 77 PASS
+data/middle.json region 78 PASS
+data/middle.json region 79 PASS
+data/middle.json region 80 PASS
+data/middle.json region 81 PASS
+data/middle.json region 82 PASS
+data/middle.json region 83 PASS
+data/middle.json region 84 PASS
+data/middle.json region 85 PASS
+data/middle.json region 86 PASS
+data/middle.json region 87 PASS
+data/middle.json region 88 PASS
+data/middle.json region 89 PASS
+data/middle.json region 90 PASS
+data/middle.json region 91 PASS
+data/middle.json region 92 PASS
+data/middle.json region 93 PASS
+data/middle.json region 94 PASS
+data/middle.json region 95 PASS
+data/middle.json region 96 PASS
+data/middle.json region 97 PASS
+data/middle.json region 98 PASS
+data/middle.json region 99 PASS
+data/middle.json region 100 PASS
+data/middle.json region 101 PASS
+data/middle.json region 102 PASS
+data/middle.json region 103 PASS
+data/middle.json region 104 PASS
+data/middle.json region 105 PASS
+data/middle.json region 106 PASS
+data/middle.json region 107 PASS
+data/middle.json region 108 PASS
+data/middle.json region 109 PASS
+data/middle.json region 110 PASS
+data/middle.json region 111 PASS
+data/middle.json region 112 PASS
+data/middle.json region 113 PASS
+data/middle.json region 114 PASS
+data/middle.json region 115 PASS
+data/middle.json region 116 PASS
+data/middle.json region 117 PASS
+data/middle.json region 118 PASS
+data/dyadic.json region 0 PASS
+data/dyadic.json region 1 PASS
+data/dyadic.json region 2 PASS
+data/dyadic.json region 3 PASS
+data/dyadic.json region 4 PASS
+data/dyadic.json region 5 PASS
+{
+  "tree_counts": [
+    243,
+    119,
+    3
+  ],
+  "data/middle.json": {
+    "minimum_margin": "1244704016397389/2048000000000000000",
+    "maximum_defect": "1081831901/312500000000000"
+  },
+  "data/dyadic.json": {
+    "minimum_margin": "3103985400195487240511/6553600000000000000000000",
+    "maximum_defect": "36568119013329/6250000000000000000"
+  },
+  "upper": {
+    "margin": "1167989751895717/60000000000000000",
+    "delta": "8369401519/7500000000000000",
+    "eta": "3858701797377/20000000000000000"
+  },
+  "collections": 126,
+  "matrix_unit_evaluations": {
+    "upper_units": 17010,
+    "lower_audit_units": 13608
+  },
+  "full_units_reconstructed": 30618,
+  "all_adjoint_identities_and_row_sums_audited": true
+}
+FINITE RATIONAL CERTIFICATES: PASS.
+CHECKING verify_boundary.py
+trace budget implies T < 4t^2: 319/320 > 0
+symmetric denominator exceeds one: 159/160 > 0
+shared arm loss: 59/16 > 0
+b loss at most t^2: 223/160 > 0
+antisymmetric pivot: 16357/8192 > 0
+inverse polynomial upper coefficient: 489/640 > 0
+inverse polynomial remaining factor: 19/3200 > 0
+flag constant: 21/1760 > 0
+flag trace coefficient: 12437/281600 > 0
+positive flag allowance on actual trace budget: 19/256 > 0
+e < 1/3: 31/1920 > 0
+contradiction p < 2t: 283/3200 > 0
+sqrt(t) < 1/25: 3/80000 > 0
+linear deficit: 1727/204800 > 0
+final margin above t/128: 1/1280 > 0
+Closed analytic and finite regions meet exactly at t=1/640.
+ALL SHORT-PROOF ARITHMETIC CHECKS PASSED.
+Direct four-index PT on 81 units; symmetric trace identity; Frobenius permutation: PASS
+Deliberately omitted complex transpose: REJECTED; resulting margin -209534888395401238086581/5242880000000000000000
+Deliberately missing coverage leaf: REJECTED
+BOUNDARY SUPPORT AND SENSITIVITY CHECKS: PASS.
+ALL EXACT CHECKS PASSED.
+The universal conclusion also uses the mathematical arguments in the manuscript.
